@@ -1,5 +1,7 @@
 package realEstate;
 
+import java.util.Scanner;
+
 
 public class Estate {
     private String address;
@@ -42,5 +44,13 @@ public class Estate {
 
     public int costPerBedroom(int base){
         return base*this.numberOfBedrooms;
+    }
+
+    public void getDetailsPrintDetails(Scanner input){
+        this.setAddress(input.nextLine());
+        this.setAreaInSqrMeters(input.nextInt());
+        this.setNumberOfBedrooms(input.nextShort());
+        System.out.println("Estate at " + this.getAddress() + " has an area of " + this.getAreaInSqrMeters() + " and "
+        + this.getNumberOfBedrooms() + " bedrooms");
     }
 }
