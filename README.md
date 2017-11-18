@@ -7,3 +7,4 @@ realEstate - "simulating" real-estate with proper encapsulation, JUnit testing w
 footballTeam - show my dream football team - JFrame, enum training <br />
 verse - write a 5 lines long rap verse, very simple 1D array training <br />
 lambdaBonus - java functional programming, total score of good employees <br />
+lambdaCooking - harder java functional programming example, average cooking time of all vegetarian recipes <br />
